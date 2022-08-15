@@ -85,19 +85,18 @@ body {
   height: 700px;
   background-image: url(../images/bg.jpg);
   background-size: cover;
-  padding: 50px;
+  padding: 70px;
   background-color: #373838;
   background-blend-mode: multiply;
 }
 .circle {
-  width: 600px;
-  height: 600px;
+  width: 480px;
+  height: 480px;
   background-color: rgba(135, 135, 135, 0.3);
   color: white;
-
   margin: auto;
   border-radius: 50%;
-  padding: 100px 120px;
+  padding: 80px 120px;
   text-align: center;
 }
 .circle p {

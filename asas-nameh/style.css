@@ -3,15 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-@font-face{
-    font-family: 'byekan';
-    src: url('../fonts/byekan.ttf') format('truetype'),
-         url('../fonts/byekan.woff') format('woff');     
+@font-face {
+  font-family: "byekan";
+  src: url("../fonts/byekan.ttf") format("truetype"),
+    url("../fonts/byekan.woff") format("woff");
 }
-@font-face{
-    font-family: 'lalezar';
-    src: url('../fonts/lalezar.ttf') format('truetype'),
-         url('../fonts/lalezar.woff') format('woff');     
+@font-face {
+  font-family: "lalezar";
+  src: url("../fonts/lalezar.ttf") format("truetype"),
+    url("../fonts/lalezar.woff") format("woff");
 }
 .header {
   width: 500px;
@@ -21,12 +21,16 @@
   border: 2px solid black;
   border-radius: 10px;
 }
-h1 :hover {
+.header:hover {
   color: yellow;
   background-color: black;
 }
-h1a : link {
-  color: black;
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  color: yellow;
 }
 .matn {
   margin: 30px;
@@ -34,7 +38,4 @@ h1a : link {
 }
 p {
   font-size: 20px;
-}
-a:link {
-  text-decoration: none;
 }
