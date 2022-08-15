@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "byekan";
+  src: url("../fonts/byekan.ttf") format("truetype"),
+    url("../fonts/byekan.woff") format("woff");
+}
+@font-face {
+  font-family: "lalezar";
+  src: url("../fonts/lalezar.ttf") format("truetype"),
+    url("../fonts/lalezar.woff") format("woff");
+}
+.header {
+  width: 500px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+h1 :hover {
+  color: yellow;
+  background-color: black;
+}
+h1 a :link {
+  color: black;
+}
+.matn {
+  margin: 30px;
+  padding: 10px;
+}
+p {
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}

@@ -113,3 +113,11 @@ body{
 .circle h2{
     font-size: 35px;
 }
+a{
+    text-decoration: none;
+    color: white;
+
+}
+a:hover{
+        color: orange;
+}
