@@ -13,6 +13,9 @@
   src: url("../fonts/lalezar.ttf") format("truetype"),
     url("../fonts/lalezar.woff") format("woff");
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: byekan;
 }
@@ -70,6 +73,7 @@ body {
   margin: 10px;
   box-shadow: 0 0 15px #bbbbbb;
   border-radius: 20px;
+  overflow: hidden;
 }
 .member-pic {
   width: 100%;
