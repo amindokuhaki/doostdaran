@@ -25,6 +25,7 @@ body {
   text-align: center;
   border: 2px solid black;
   border-radius: 10px;
+  background-color: lightgray;
 }
 h1 :hover {
   color: yellow;

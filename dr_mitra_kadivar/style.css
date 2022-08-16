@@ -17,30 +17,22 @@ body {
   font-family: byekan, b yekan;
   background-color: rgb(187, 241, 223);
 }
-.header {
-  width: 500px;
+.pic {
+  margin: auto;
+  display: flex;
+}
+.pic2 {
   margin: auto;
   margin-top: 50px;
-  text-align: center;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 10px;
-  background-color: lightgray;
+  box-shadow: 0 0 15px #bbbbbb;
 }
-.header:hover {
-  color: yellow;
-  background-color: black;
+.kadivar{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
 }
-a {
-  text-decoration: none;
-  display: inline-block;
-}
-a:hover {
-  color: yellow;
-}
-.matn {
-  margin: 30px;
-  padding: 10px;
-}
-p {
-  font-size: 20px;
+a{
+    text-decoration: none;
 }
