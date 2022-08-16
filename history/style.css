@@ -14,7 +14,8 @@
     url("../fonts/lalezar.woff") format("woff");
 }
 body {
-  font-family: byekan,  b yekan;
+  font-family: byekan, b yekan;
+  background-color: rgb(187, 241, 223);
 }
 .header {
   width: 500px;
