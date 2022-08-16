@@ -13,6 +13,9 @@
   src: url("../fonts/lalezar.ttf") format("truetype"),
     url("../fonts/lalezar.woff") format("woff");
 }
+body {
+  font-family: byekan;
+}
 .header {
   width: 500px;
   margin: auto;
