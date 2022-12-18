@@ -68,6 +68,7 @@ body {
 }
 .member-item {
     width: 300px;
+    min-height: 900px;
     height: 900px;
     display: inline-block;
     margin: 10px;
