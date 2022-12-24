@@ -1,46 +1,44 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
-  font-family: "byekan";
-  src: url("../fonts/byekan.ttf") format("truetype"),
-    url("../fonts/byekan.woff") format("woff");
+    font-family: "byekan";
+    src: url("../fonts/byekan.ttf") format("truetype"), url("../fonts/byekan.woff") format("woff");
 }
 @font-face {
-  font-family: "lalezar";
-  src: url("../fonts/lalezar.ttf") format("truetype"),
-    url("../fonts/lalezar.woff") format("woff");
+    font-family: "lalezar";
+    src: url("../fonts/lalezar.ttf") format("truetype"), url("../fonts/lalezar.woff") format("woff");
 }
 body {
-  font-family: byekan, b yekan;
-  background-color: rgb(187, 241, 223);
+    font-family: byekan, b yekan;
+    background-color: rgb(187, 241, 223);
 }
 .header {
-  width: 500px;
-  margin: auto;
-  margin-top: 50px;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 10px;
-  background-color: lightgray;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
 }
 .header:hover {
-  color: yellow;
-  background-color: black;
+    color: yellow;
+    background-color: black;
 }
 a {
-  text-decoration: none;
-  display: inline-block;
+    text-decoration: none;
+    display: inline-block;
 }
 a:hover {
-  color: yellow;
+    color: yellow;
 }
 .matn {
-  margin: 30px;
-  padding: 10px;
+    margin: 30px;
+    padding: 10px;
 }
 p {
-  font-size: 20px;
+    font-size: 20px;
 }
